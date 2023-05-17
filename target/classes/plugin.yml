@@ -1,0 +1,11 @@
+name: MortisSpawnPoint
+version: '1.0'
+main: me.unknownmystery.mortisspawnpoint.MortisSpawnPoint
+api-version: 1.13
+commands:
+  msreload:
+    description: Reloads the plugin and the configs.
+  setspawn:
+    description: Sets the spawnpoint location.
+  spawn:
+    description: Teleports to the spawnpoint location.

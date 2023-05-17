@@ -1,0 +1,55 @@
+#Thank you for downloading Mortissentials v1.0!
+#This is the configuration section for this plugin.
+
+#===================================================================================================================
+#                                                MESSAGES SECTION:
+#===================================================================================================================
+
+#message that is sent when a player joins the server.
+join-message: "&ajust hoped in the server again! Player is still alive lol."
+#message that is sent when a player quits the server.
+leave-message: "&ajust stopped playing and left us. RIP!"
+
+#===================================================================================================================
+#                                               SPAWNPOINT SECTION:
+#===================================================================================================================
+
+#This is the configuration section for spawnpoint feature.
+#If teleport-on-join is set to false then the player will continue from where they left, upon joining.
+#Or else if teleport-on-join is set to true then the player will be teleported to the spawnpoint upon joining.
+teleport-on-join: false
+spawn:
+  world: world
+  x: 0
+  y: 69
+  z: 0
+  pitch: 0
+  yaw: 0
+
+#===================================================================================================================
+#                                               AUTO-MESSAGES SECTION:
+#===================================================================================================================
+#The is the time interval after which each message will be broadcast to the server
+interval: 60 #in seconds.
+#The number indicates that how many messages needs to be broadcasts when the first message is successfully broadcast
+#after each interval.
+message-per-interval: 4
+#This is the messages section which the plugin will choose the messages and then broadcast to the server after each
+#interval.
+#From this section the "messages-per-interval" will select and broadcast messages to the server.
+messages:
+  - "&1==============================================="
+  - "&2Mortis SpawnPoint plugin v1.0!"
+  - "&2Thank you for downloading our plugin!"
+  - "&1==============================================="
+  -
+  - "&1==============================================="
+  - "&3Author: UnknownMystery (Discord: MrErrorX#1418)"
+  - "&3Contributor: None030"
+  - "&1==============================================="
+  -
+  - "&1==============================================="
+  - "&4For support/bug report, join our discord server"
+  - "&4discord server: https://discord.gg/BZPepWZMFf"
+  - "&1==============================================="
+  -
